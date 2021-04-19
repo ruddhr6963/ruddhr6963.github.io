@@ -1,5 +1,6 @@
 #chat-screen {
   background-color: var(--yellow);
+  height: 500vh;
 }
 
 #chat-screen .alt-header {

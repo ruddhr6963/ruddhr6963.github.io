@@ -24,15 +24,8 @@
   }
 }
 
-@media screen and (min-width: 605px) {
-  @media screen and (orientation: landscape) {
-    #no-mobile {
-      display: none;
-    }
-  }
-  @media screen and (orientation: portrait) {
-    #no-portrait {
-      display: none;
-    }
+@media screen and (min-width: 705px) {
+  #no-portrait {
+    display: none;
   }
 }

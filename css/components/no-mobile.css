@@ -24,6 +24,20 @@
   }
 }
 
+@media screen and (min-width: 605px) and (max-width: 800px) {
+  @media screen and (orientation: landscape) {
+    #no-mobile {
+      display: none;
+    }
+  }
+
+  @media screen and (orientation: portrait) {
+    #no-portrait {
+      display: none;
+    }
+  }
+}
+
 @media screen and (min-width: 800px) {
   #no-portrait {
     display: none;

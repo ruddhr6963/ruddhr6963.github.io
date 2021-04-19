@@ -12,8 +12,31 @@
   top: 0;
 }
 
-@media screen and (max-width: 645) {
+/* 
+  1. width 가 605px 보다 작고
+    mobile diplay none
+   1)  가로모드이면 -> landscape diplay
+   2)  가로모드아니면 -> landscpae display none
+
+  2. width 가 605px 보다 크면
+    mobile display
+   1) 가로모드이면 -> landscape display
+   2) 가로모드아니면 -> landscpae display none
+*/
+@media screen and (max-width: 605px) {
   #no-mobile {
+    display: none;
+  }
+
+  @media screen and (orientation: portrait) {
+    #no-landscape {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 605px) and (orientation: portrait) {
+  #no-landscape {
     display: none;
   }
 }

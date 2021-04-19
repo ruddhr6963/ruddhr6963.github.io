@@ -15,7 +15,6 @@
 }
 
 #chat-screen .alt-header {
-  top: 10px;
   z-index: 1;
 }
 
@@ -53,7 +52,7 @@
 }
 
 .main-chat {
-  margin-top: 180px;
+  margin-top: 130px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -83,6 +82,7 @@
   width: 100%;
   display: flex;
   margin-bottom: 25px;
+  margin-top: 15px;
 }
 
 .message-row img {

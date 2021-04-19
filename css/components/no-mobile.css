@@ -24,7 +24,7 @@
   }
 }
 
-@media screen and (min-width: 705px) {
+@media screen and (min-width: 800px) {
   #no-portrait {
     display: none;
   }
